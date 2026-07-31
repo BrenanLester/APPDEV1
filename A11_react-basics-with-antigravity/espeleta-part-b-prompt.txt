@@ -1,0 +1,138 @@
+# React Project UI Customization Prompt (Cyber/Y2K & Neon Theme)
+
+I want you to redesign my existing React project using a Cyber/Y2K & Neon aesthetic, inspired by the attached reference image (dark futuristic interface with glowing purple/blue neon lighting, glassmorphism, and modern UI elements).
+
+## Objective
+Transform the project into a visually stunning Cyber/Y2K-inspired application while keeping every existing feature and functionality exactly the same.
+The application must behave 100% identically to the current version. Only the appearance should change.
+
+## Theme & Style
+Design the application using:
+- Cyberpunk / Y2K aesthetic
+- Dark mode interface
+- Neon purple, violet, blue, cyan accents
+- Soft glowing effects
+- Glassmorphism cards
+- Frosted transparent panels
+- Blur backgrounds
+- Gradient lighting
+- Rounded modern components
+- Smooth hover animations
+- Clean futuristic typography
+- Minimal yet premium-looking layout
+
+The design should resemble modern landing pages similar to the provided reference image.
+
+## You MAY
+- Add new React components only for presentation/layout purposes
+- Add images, SVGs, icons, backgrounds, or illustrations
+- Add CSS modules or new CSS files
+- Modify existing CSS
+- Improve spacing and alignment
+- Improve typography
+- Add gradients
+- Add neon glow effects
+- Add subtle animations and transitions
+- Add glassmorphism effects
+- Add decorative UI elements
+- Improve responsiveness
+- Add visual section dividers
+- Improve button styling
+- Improve cards and containers
+- Enhance navigation styling
+- Improve forms visually
+- Add background effects
+- Add decorative shapes or glowing circles
+
+## You MUST NOT
+- Change any application logic
+- Change business logic
+- Modify React state logic
+- Modify hooks
+- Change event handlers
+- Change API calls
+- Change routing
+- Change data flow
+- Change calculations
+- Change validation
+- Change functionality
+- Remove any existing features
+- Break existing features
+- Rename existing files
+- Rename components
+- Rename variables
+- Rename functions
+- Move existing files
+- Delete existing files
+- Reorganize the project structure
+
+## Project Structure Rules
+You may create new files such as:
+- components/
+- assets/
+- images/
+- icons/
+- styles/
+- css/
+
+when necessary.
+
+However, DO NOT:
+- rename existing files
+- remove existing files
+- reorganize folders
+- modify required project structure
+
+Only add new files if needed.
+
+## Visual Inspiration
+Use the attached reference image as inspiration for:
+- dark futuristic theme
+- glowing neon effects
+- purple lighting
+- glassmorphism
+- rounded navigation
+- glowing buttons
+- premium UI
+- blurred panels
+- elegant spacing
+- immersive atmosphere
+
+Do not copy the layout exactly—use it only as inspiration for the overall visual style.
+
+## Design Guidelines
+Use colors similar to:
+- Background: #050505
+- Surface: #101018
+- Purple: #8B5CF6
+- Neon Purple: #A855F7
+- Neon Blue: #3B82F6
+- Cyan: #22D3EE
+- Text: #FFFFFF
+- Secondary Text: #B3B3C5
+
+Use effects such as:
+- box-shadow glows
+- backdrop-filter blur
+- soft gradients
+- glowing borders
+- animated hover states
+- smooth transitions (200–300ms)
+- subtle floating effects
+- radial background glows
+
+**Contrast rule:** every text color must have clearly readable contrast against the surface/background color it sits on. Do not ship any text that relies on a single undefined or partially-transparent value to become visible — headings, subtitles, badges, card titles, card meta text, and footer text must all be legible at a glance.
+
+## Technical Safety Requirements (to prevent rendering bugs)
+These rules exist because loose theming setups commonly render text invisible or animations dead on arrival. Follow them exactly:
+
+1. **Every CSS custom property must actually resolve.** If you introduce design tokens (`--text-primary`, `--bg-card`, `--gradient-text`, `--neon-purple`, `--radius-lg`, `--transition-normal`, etc.), define them all in one central place (e.g. a `:root` block or a single theme/tokens CSS file) and make sure that file is imported everywhere it's used. Additionally, give every `var()` usage a sensible fallback value — e.g. `color: var(--text-primary, #f5f3ff)` — so nothing goes invisible if a token is ever missing or fails to load.
+2. **Never rely on `color: transparent` + `background-clip: text` without a guaranteed fallback background.** If a gradient text effect is used for a heading, the `background` property must always resolve to a real gradient (with a fallback value), or the heading will render as blank/invisible.
+3. **Every referenced animation must have a matching `@keyframes` block.** If you write `animation: fadeInUp .8s ease both`, `fadeInUp` must be defined somewhere in the stylesheet you're shipping. Don't reference animation names that don't exist.
+4. **Match new CSS selectors to the real JSX/DOM structure.** Before adding rules like `.card > div::before` for decorative elements (e.g. a watermark number), confirm the component actually renders that wrapper element. If it doesn't, either adjust the selector to match the real markup or add the wrapper element in the component (presentation-only, per the rules above) — don't ship a rule that silently never fires.
+5. **Explicitly set text alignment for hero/header content.** A full-width container with `align-items: center` on its parent flexbox does not center inline text inside it — add `text-align: center` (or the appropriate alignment) directly where needed, and verify it visually.
+
+## Final Goal
+Deliver a polished, modern, Cyber/Y2K-inspired interface that looks like a premium futuristic web application while preserving 100% of the original functionality. Every interaction, feature, state update, route, and behavior must remain unchanged—the only differences should be the visual design, styling, and presentation.
+
+**Before considering the task done**, visually verify (don't just assume): no text is invisible or low-contrast against its background, every animation actually plays, every decorative selector actually matches an element in the DOM, and the layout is centered/aligned as intended at both desktop and mobile widths.
