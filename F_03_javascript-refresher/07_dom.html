@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom.html</title>
+</head>
+<body>
+
+    <h1>Meeting the Browser DOM</h1>
+
+    <button id="colorButton">Change Background</button>
+
+    <p id="message">Waiting for the message to update...</p>
+
+    <script>
+        const colorButton = document.getElementById("colorButton");
+        const message = document.getElementById("message");
+
+        colorButton.addEventListener("click", function() {
+            const color = prompt("Enter a background color:");
+            document.body.style.backgroundColor = color;
+        });
+
+        setTimeout(function() {
+            message.textContent = "The paragraph has been updated after 2 seconds!";
+        }, 2000);
+    </script>
+
+</body>
+</html>
