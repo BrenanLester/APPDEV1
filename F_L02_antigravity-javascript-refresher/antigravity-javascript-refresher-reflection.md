@@ -55,3 +55,13 @@ Do not make any changes until I approve the modification.
 
 "Natotonan ko sa part na to na pwede palang i reverse yung nasa array mo sa javascript using reverse(). You can also remove the last item using shift() after reversinng the array."
 
+### 06_control_structures.js
+On 06_control_structures.js
+Modify the existing code only.
+Change the grading condition so that a grade of `92.52` will fall under the `"B"` result instead of `"A"`.
+Do not add anything to the code. Do not create new variables, conditions, statements, loops, or functions. Only modify the existing code that is necessary to produce the requested result.
+Leave the `for` loop and `while` loop unchanged.
+Do not edit the file until I approve the change.
+Change the overall grade requirements too.
+
+"
