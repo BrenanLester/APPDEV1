@@ -1,13 +1,13 @@
 const aboutMe = {
-    name: "Brenan Lester Espeleta",
-    age: 21,
-    course: "BSIS",
+    name: "Brenan Espeleta",
+    age: 22,
+    course: "BSIT",
     introduce: function() {
-        console.log(`Hello, my name is ${this.name}. I am ${this.age} years old and I am taking up ${this.course}.`);
+        console.log(`Hi, I'm ${this.name}, ${this.age} years old, and currently pursuing ${this.course}.`);
     }
 };
 
-aboutMe.hobby = "Reading Animated Novels";
+aboutMe.hobby = "Playing Video Games";
 
 aboutMe.introduce();
-console.log(`And i like ${aboutMe.hobby} as my hobby.`);
+console.log(`And I enjoy ${aboutMe.hobby} as my hobby.`);

@@ -31,3 +31,14 @@ Let me see the output first and modify it after i approved the changes
   Do not modify the file until I give approval to the new changes.
 
 "Yung na totonan ko sa part na to is kaya din pala ng ai ma modify kahit yung medjo complex na task and kaya niya ito i generate ng mabilis."
+
+### 04_objects.js
+On 04_objects.js
+  Modify the existing `aboutMe` code so that it contains `name`, `age`, `course`, and an `introduce()` method.
+  
+  Before making the changes, explain why `introduce()` should remain a regular function rather than an arrow function when accessing
+  `this.name`.
+  
+  Do not edit the code until the explanation is provided and I approve the changes.
+
+"Natotonan ko sa part na to is yung gamit ng objects, natotonan ko din na may method na sarili yung object. And also natotonan ko din kung bakit yung introduce() should remain regular function instead na mag arrow function."
