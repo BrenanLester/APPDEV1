@@ -18,13 +18,12 @@
         const message = document.getElementById("message");
 
         colorButton.addEventListener("click", function() {
-            const color = prompt("Enter a background color:");
-            document.body.style.backgroundColor = color;
+            document.body.style.backgroundColor = "lightblue";
         });
 
         setTimeout(function() {
-            message.textContent = "The paragraph has been updated after 2 seconds!";
-        }, 2000);
+            message.textContent = "The paragraph has been updated after 30 seconds!";
+        }, 30000);
     </script>
 
 </body>

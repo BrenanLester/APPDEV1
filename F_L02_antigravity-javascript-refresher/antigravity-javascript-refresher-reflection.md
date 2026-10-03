@@ -64,4 +64,15 @@ Leave the `for` loop and `while` loop unchanged.
 Do not edit the file until I approve the change.
 Change the overall grade requirements too.
 
-"
+"Yung na totonan ko sa part na to is kung paano gamitin yung if, for, and while sa javascript and kung paano nila na cocontrol kung ano yung mangyayari sa program/code. And also nakita ko na kaya din pala ng ai mag isip kung appropriate ba yung values na nilagay ko sa code.
+
+
+### 07_dom.html
+On 07_dom.html
+Modify the existing HTML and JavaScript code only.
+Change the behavior of the `colorButton` so that clicking it changes the background to `"lightblue"` automatically instead of asking the user to enter a color.
+Do not add any new HTML elements, variables, event listeners, functions, or other code. Only modify the existing code necessary to make this behavior change.
+Change the `setTimeout()` paragraph update into 30 seconds.
+Do not edit the file until I approve the change.
+
+"Yung natotonan ko sa exercise na ito, natutunan ko kung paano gamitin ang JavaScript para baguhin ang behavior ng webpage gamit ang DOM. Naintindihan ko rin na hindi kailangang magdagdag ng bagong code para ma-modify ang isang existing functionality."
