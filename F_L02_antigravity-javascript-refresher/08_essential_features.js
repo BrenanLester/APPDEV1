@@ -1,4 +1,4 @@
-const hobbies = ["Reading Animated Novels", "Playing Games", "Watching Dramas"];
+const hobbies = ["Reading Animated Novels", "Listening to Music", "Watching Dramas"];
 
 hobbies.map(hobby => {
     console.log(hobby);
@@ -6,8 +6,8 @@ hobbies.map(hobby => {
 
 
 const student = {
-    name: "Brenan Lester Espeleta",
-    age: 21
+    name: "Lester Espeleta",
+    age: 22
 };
 
 const { name, age } = student;

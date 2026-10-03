@@ -76,3 +76,13 @@ Change the `setTimeout()` paragraph update into 30 seconds.
 Do not edit the file until I approve the change.
 
 "Yung natotonan ko sa exercise na ito, natutunan ko kung paano gamitin ang JavaScript para baguhin ang behavior ng webpage gamit ang DOM. Naintindihan ko rin na hindi kailangang magdagdag ng bagong code para ma-modify ang isang existing functionality."
+
+### 08_essential_features.js
+On 08_essential_features.js
+  Modify the existing JavaScript code only.
+  Change the `hobbies` array so that `"Playing Games"` is replaced with `"Listening to Music"`.
+  Change the const student and its values.
+  Leave the destructuring and spread operator sections unchanged.
+  Do not edit the file until I approve the change.
+
+"Sa exercise na ito, natutunan ko kung paano gamitin ang `map()`, destructuring, at spread operator sa JavaScript. Mas naintindihan ko kung paano nito pinapadali ang pagkuha at pag-manage ng data sa arrays at objects."
