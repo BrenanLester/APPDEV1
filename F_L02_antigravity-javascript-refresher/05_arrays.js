@@ -1,5 +1,6 @@
 let favoriteFoods = ["Tinola", "Fried Chicken", "Spaghetti"];
 favoriteFoods.push("BBQ");
+favoriteFoods.reverse();
 favoriteFoods.shift();
 
 for (let food of favoriteFoods) {

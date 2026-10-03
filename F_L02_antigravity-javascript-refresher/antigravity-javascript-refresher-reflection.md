@@ -42,3 +42,16 @@ On 04_objects.js
   Do not edit the code until the explanation is provided and I approve the changes.
 
 "Natotonan ko sa part na to is yung gamit ng objects, natotonan ko din na may method na sarili yung object. And also natotonan ko din kung bakit yung introduce() should remain regular function instead na mag arrow function."
+
+### 05_arrays.js
+On 05_arrays.js
+Modify the existing `favoriteFoods` code only.
+
+Change the food removed by the current `shift()` operation so that the program removes the **last item** from the array instead.
+
+Do not add any new variables, statements, functions, methods, loops, or other code. Only modify the existing line necessary to achieve the requested change.
+
+Do not make any changes until I approve the modification.
+
+"Natotonan ko sa part na to na pwede palang i reverse yung nasa array mo sa javascript using reverse(). You can also remove the last item using shift() after reversinng the array."
+
