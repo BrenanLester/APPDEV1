@@ -22,3 +22,12 @@ After explaining them, modify the file
 Let me see the output first and modify it after i approved the changes
 
 "Yung natotonan ko sa part na to is yung difference between sa strings, number, boolean. I also learned the meaning of == and ===. It really helps kung ganto mo gagamitin yung ai, it explains to you codes that you didn't understand."
+
+### 03_functions.js
+> Nope let me right another prompt for this file.
+  * Change the arithmethic used on the function calculator
+  * Change variable names and numbers used
+  * Change the Log on greet function
+  Do not modify the file until I give approval to the new changes.
+
+"Yung na totonan ko sa part na to is kaya din pala ng ai ma modify kahit yung medjo complex na task and kaya niya ito i generate ng mabilis."

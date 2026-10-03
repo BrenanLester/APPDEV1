@@ -1,22 +1,22 @@
 function greet(name) {
-    return "Hello, " + name + "!";
+    return "Welcome, " + name + "!";
 }
 
-console.log(greet("Brenan"));
+console.log(greet("Lester"));
 
 
-const square = (num) => {
-    return num * num;
+const square = (val) => {
+    return val * val;
 };
 
-console.log(square(5));
+console.log(square(7));
 
 
-function calculator(a, b) {
+function calculator(x, y) {
     return {
-        sum: a + b,
-        product: a * b
+        difference: x - y,
+        quotient: x / y
     };
 }
 
-console.log(calculator(9, 9));
+console.log(calculator(50, 10));
