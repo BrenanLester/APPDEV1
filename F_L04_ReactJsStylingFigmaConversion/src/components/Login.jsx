@@ -1,7 +1,7 @@
 import styles from "./Login.module.css";
 import logo from "../assets/logo.svg";
 
-export default function Login() {
+export default function Login({ onSignup }) {
     return (
         <div className={styles.login}>
             {/* ---------- Left panel ---------- */}
@@ -36,7 +36,16 @@ export default function Login() {
                     <button>Login</button>
 
                     <p className={styles.signup}>
-                        Don't have an account? <a href="#">Signup Here</a>
+                        Don't have an account?{" "}
+                        <a
+                            href="#signup"
+                            onClick={(event) => {
+                                event.preventDefault();
+                                onSignup();
+                            }}
+                        >
+                            Signup Here
+                        </a>
                     </p>
                 </div>
             </section>

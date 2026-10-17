@@ -35,4 +35,14 @@
   /* Illustration shadow */
   --shadow-illustration:
     0 20px 20px rgba(60, 80, 140, 0.35);
+
+  /* Additional tokens for registration */
+  --font-size-small: 12px;
+  --font-size-social: 10px;
+  --font-size-signup-heading: 20px;
+  --color-text-muted: #888;
+  --color-divider: #bbb;
+  --radius-social: 5px;
+  --button-height-compact: 40px;
 }
+
