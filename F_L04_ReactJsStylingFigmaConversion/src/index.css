@@ -11,20 +11,37 @@
 }
 
 body {
+  margin: 0;
+  min-width: 0;
+  min-height: 100vh;
   font-family: var(--font-family-base);
   font-size: var(--font-size-base);
   font-weight: var(--font-weight-regular);
   color: var(--color-text);
   background: var(--color-primary);
+}
+
+/* Give both screens a full-width, reliable layout parent. */
+#root {
+  width: 100%;
+  min-width: 0;
   min-height: 100vh;
+  min-height: 100svh;
+  padding: 24px 0;
   display: grid;
   place-items: center;
 }
 
-/* Keep form controls consistent with the page font. */
 button,
 input,
 select,
 textarea {
   font-family: inherit;
+}
+
+@media (max-width: 768px) {
+  #root {
+    display: block;
+    padding: 0;
+  }
 }

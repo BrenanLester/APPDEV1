@@ -44,5 +44,11 @@
   --color-divider: #bbb;
   --radius-social: 5px;
   --button-height-compact: 40px;
+
+  /* Responsive overrides */
+  --radius-panel-tablet: 40px;
+  --radius-panel-mobile: 24px;
+  --heading-gap-tablet: 48px;
+  --heading-gap-mobile: 32px;
 }
 
