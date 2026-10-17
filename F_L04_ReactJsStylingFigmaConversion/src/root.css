@@ -1,0 +1,38 @@
+:root {
+  /* Font family */
+  --font-family-base: "Poppins", sans-serif;
+
+  /* Font sizes */
+  --font-size-base: 16px;
+  --font-size-form-heading: 28px;
+  --font-size-tagline: 32px;
+
+  /* Font weights */
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  /* Colors */
+  --color-primary: #5b86e5;
+  --color-panel: #a9c0f0;
+  --color-surface: #fff;
+  --color-text: #000;
+  --color-placeholder: #9a9a9a;
+  --color-input-border: #333;
+
+  /* Spacing */
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-7: 28px;
+
+  /* Shared form styling */
+  --letter-spacing: 1px;
+  --input-padding: 18px 0 14px;
+  --button-height: 60px;
+  --radius-button: 8px;
+  --radius-panel: 60px;
+
+  /* Illustration shadow */
+  --shadow-illustration:
+    0 20px 20px rgba(60, 80, 140, 0.35);
+}
