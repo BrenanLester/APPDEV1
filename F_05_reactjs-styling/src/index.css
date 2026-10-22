@@ -1,0 +1,7 @@
+@import './styles/tokens.css';
+
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; background: var(--color-page); color: var(--color-primary); font-family: var(--font-family-base); }
+button, input { font: inherit; }
+button { cursor: pointer; }
+button:focus-visible, input:focus-visible { outline: 3px solid var(--color-accent); outline-offset: 5px; }

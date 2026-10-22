@@ -1,0 +1,20 @@
+:root {
+  --font-family-base: Arial, Helvetica, sans-serif;
+  --color-page: #f5f5f5;
+  --color-surface: #ffffff;
+  --color-primary: #4b6979;
+  --color-primary-hover: #395868;
+  --color-heading: #577583;
+  --color-accent: #7e9ea1;
+  --color-line: #628292;
+  --color-muted: #a3b7c5;
+  --color-inactive: #c2ced6;
+  --color-frame: #807691;
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --radius-page: 0.875rem;
+  --height-control: 3rem;
+  --width-form: 383px;
+}
